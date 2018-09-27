@@ -1,0 +1,56 @@
+body{
+  background-color: #e8e8e8;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.texto-encima{
+    font-size: 3em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.stroke {
+text-shadow: -2px -2px 1px #e8e8e8, 2px 2px 1px #e8e8e8, -2px 2px 1px #e8e8e8, 2px -2px 1px #e8e8e8;
+}
+p.h3{
+  margin-top: -10px;
+}
+.texto-encima ul{
+  list-style-image:  url("pixel/bullets-01.png");
+  font-size: 0.4em;
+  margin-top: -10px;
+}
+ul.listCircle{
+  list-style-image:  url("pixel/bullets-02.png");
+}
+.texto-encima ul > li{
+  margin-top: 10px;
+}
+span{
+  color: #e41982;
+}
+.centrado{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#form-diag{
+  background-color: black;
+  border-radius: 5px;
+  border: solid 2px #e41982;
+ }
+.btn-success{
+  background-color: #68c005;
+}
+#unicos{
+  background-color: black;
+}
+#avisoylegales{
+  font-size: 0.7em;
+}
